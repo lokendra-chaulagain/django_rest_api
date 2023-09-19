@@ -9,4 +9,4 @@ class Bike(models.Model):
     bike_model = models.CharField(max_length=30)
 
     class Meta:
-        app_label = 'bike'
+        app_label = 'src.apps.bike'
